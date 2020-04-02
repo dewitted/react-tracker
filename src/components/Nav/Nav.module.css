@@ -1,0 +1,38 @@
+.navContainer {
+  padding: 25px 0;
+}
+
+.container {
+  height: 60px;
+  width: 60px;
+}
+
+.addNew {
+  background-image: url('../../assets/more.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.timeStats {
+  background-image: url('../../assets/clock.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.periods {
+  background-image: url('../../assets/wind.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

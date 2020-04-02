@@ -18,12 +18,15 @@
     "react-scripts": "^3.4.1",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "start:server": "json-server --watch src/db.json --port 4000",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
